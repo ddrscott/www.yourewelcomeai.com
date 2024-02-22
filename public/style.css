@@ -1,0 +1,76 @@
+:root {
+    --highlight-color: #FF677E;
+    --text-color: #6d6265;
+    --brighter-text-color: #94888B;
+}
+
+html,
+body {
+    padding: 2vw 5vw;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #111111;
+    color: var(--text-color);
+    text-align: center;
+}
+
+a {
+    color: var(--highlight-color);
+}
+
+b, h3 {
+    color: var(--brighter-text-color);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+pre {
+    font-family: monospace;
+    font-weight: normal;
+    padding: 1em;
+    white-space: wrap-all;
+    line-height: 1.5em;
+    background-color: #333;
+    color: #aaa;
+    color: var(--brighter-text-color);
+}
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .8em;
+    color: var(--brighter-text-color);
+}
+
+footer {
+    /* position to the bottom */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 1em;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 10vw;
+    color: #6d6265;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: var(--highlight-color);
+    font-size: 12vw;
+    padding: 0;
+    margin: 0;
+}
